@@ -1,0 +1,24 @@
+canvas {
+	position:		absolute;
+	top:			0;
+	left:			0;
+	border:			none;
+}
+#controls {
+	position:		fixed;
+	top:			0;
+	left:			0;
+	color:			white;
+	background:		black;
+	opacity:		0.7;
+}
+#startmenu {
+	position:		absolute;
+	height:			30%;
+	width:			20%;
+	left:			40%;
+	top:			35%;
+	background:		black;
+	color:			white;
+	font-weight:	bold;
+}

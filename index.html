@@ -1,0 +1,33 @@
+﻿<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+<canvas id='example' height="900" width="1600"></canvas>
+<div id="controls">
+Разреженность среды:<br>
+<input type="range" min="0.9" max="0.999" step="0.001" onchange="resist=this.value">
+<br>
+Грав. постоянная:<br>
+<input type="range" min="0.6" max="1" step="0.001" onchange="gravityMod=this.value">
+<br>
+Замедление времени:<br>
+<input type="range" min="1" max="100" step="1" onchange="clock=this.value">
+<br>
+Масштабирование сил:<br>
+<input type="range" min="0.001" max="0.3" step="0.001" onchange="scale=this.value">
+</div>
+<div id="startmenu">
+Количество неподвижных объектов:<br>
+1<input type="range" min="1" max="20" step="1" value="5" id="count">20
+<br>
+Минимальная масса:<br>
+1<input type="range" min="1" max="5" step="1" value="1" id="antigrav">5
+<br>
+Максимальная масса:<br>
+6<input type="range" min="6" max="20" step="1" value="5" id="maxmass">20
+<br>
+<input type="button" onclick="mainstart()" value="Начать">
+</div>
+
+
+<script>
+
+</script>
